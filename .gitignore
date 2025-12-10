@@ -1,0 +1,77 @@
+################################################
+### 🔹 SEZIONE 1 — ASP.NET Core / .NET
+
+# Build outputs
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Logs
+*.log
+
+# Configurazioni locali (segreti)
+appsettings.Development.json
+appsettings.Local.json
+launchSettings.json
+
+# Database locali
+*.db
+*.db-shm
+*.db-wal
+
+################################################
+### 🔹 SEZIONE 2 — Node / React / Vite
+
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build frontend
+dist/
+**/dist/
+**/.vite/
+
+# Env frontend
+**/.env
+**/.env.*
+
+################################################
+### 🔹 SEZIONE 3 — Env & Secrets backend
+
+**/*.env
+
+################################################
+### 🔹 SEZIONE 4 — Editor & IDE (VS Code, JetBrains)
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+*.rsuser
+
+
+# JetBrains / Rider
+.idea/
+*.iml
+
+################################################
+### 🔹 SEZIONE 5 — Sistema operativo / varie
+
+# Windows / macOS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+################################################
+### 🔹 SEZIONE 6 — Varie / Backup
+
+# Evita di versionare backup SQL pesanti
+*.backup
+**/BackupSQL/
+
+
+*.swp
+struttura.txt

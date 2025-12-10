@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="jokesapp.client/JokesApp.Client.esproj">
+    <Build />
+    <Deploy Solution="Release|*" />
+  </Project>
+  <Project Path="JokesApp.Server/JokesApp.Server.csproj" />
+  <Project Path="JokesApp.Tests/JokesApp.Tests.csproj" />
+</Solution>
